@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Gerizim Berrío</title>
+    <link rel="stylesheet" href="Portafolio_Gery.css">
+</head>
+<body>
+
+    <!-- Dark Mode Toggle Button -->
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">Modo Oscuro</button>
+
+    <!-- Header with Video -->
+    <header>
+        <video autoplay muted loop id="header-video">
+            <source src="/Portafolio/galaxLine.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+        <h1 class="header-text">Gerizim Berrío</h1>
+    </header>
+
+    <!-- Sobre Mí -->
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <div class="p1">        
+            <p>Hola, soy Gerizim Berrío, un desarrollador web y programador con experiencia en varios lenguajes y tecnologías. Me apasiona la creación de soluciones digitales y la mejora constante. Me especializo en el desarrollo de aplicaciones web dinámicas y eficientes, usando las últimas tecnologías.</p>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills">
+        <h2>Mis Habilidades</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <p>Diseño y estructura web</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Interactividad y programación dinámica</p>
+            </div>
+            <div class="skill">
+                <h3>PHP</h3>
+                <p>Desarrollo backend</p>
+            </div>
+            <div class="skill">
+                <h3>MySQL</h3>
+                <p>Gestión de bases de datos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="projects-carousel">
+            <div class="projects-carousel-container">
+                <div class="project">
+                    <h3>JS Electronics</h3>
+                    <p>Colaboré en un prestigioso proyecto junto a un equipo de desarrollo de software de alto nivel.</p>
+                    <a class="link" href="www.empresaficticia.com">Ver Proyecto</a>
+                </div>
+                <div class="project">
+                    <h3>Coca-cola sostenible</h3>
+                    <p>Diseñé el sitio web enfocándome en mostrar sus esfuerzos en sostenibilidad mediante una experiencia accesible.</p>
+                    <a class="link" href="/Portafolio/WEB_CUBE.html">Ver Proyecto</a>
+                </div>
+                <div class="project">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción del proyecto 3</p>
+                </div>
+                <!-- Agrega más proyectos si es necesario -->
+            </div>
+        
+            <div class="carousel-buttons">
+                <button class="carousel-button prev">&#8592;</button> <!-- Botón anterior -->
+                <button class="carousel-button next">&#8594;</button> <!-- Botón siguiente -->
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Cocacola sostenible</h3>
+            <p>Coca-cola la bebida que refresca el mundo.</p>
+            <a class="link" href="/Portafolio/The Coca-Cola Sustainable.pdf">Ver pdf</a>
+        </div>
+
+    <!-- Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre completo" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Gerizim Berrío. Todos los derechos reservados.</p>
+        <p>Sígueme en: 
+            <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/tu-perfil" target="_blank">GitHub</a>
+        </p>
+    </footer>
+    <script src="Portafolio_Gery.js"></script>
+</body>
+</html>
